@@ -1,0 +1,57 @@
+
+main {
+    background-color: rgb(74, 92, 66);
+}
+
+
+
+.Hero {
+    margin-inline: auto;
+    align-self: auto;
+
+    background-color: rgb(125, 167, 123);
+    border-radius: 1rem;
+
+    
+    
+
+
+    max-width: 60rem;
+    min-height: 30rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BackImage {
+    position: relative;
+}
+
+.BackImage::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    background-color: blue;
+    left: 0;
+    top: 0;
+    
+    background-image: url(../images/Chemistry.jpg);
+    opacity: 0.5;
+
+}
+
+.HeroText {
+    position: relative;
+    
+    margin-inline: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    font-size: 2.5rem;
+    max-width: 45ch;
+
+    font-family: 'Bebas Neue', sans-serif;
+
+}
