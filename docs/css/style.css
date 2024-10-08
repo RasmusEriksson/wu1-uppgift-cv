@@ -1,57 +1,102 @@
 
 main {
-    background-color: rgb(74, 92, 66);
+    background-color: rgb(255, 255, 255);
 }
 
+.Nav {
+    background-color: rgb(85, 85, 85);
+    max-height: fit-content;
+    display: flex;
+}
 
+.NavList li {
+    float: left;
+    padding: 1rem;
+    list-style: none;
+    
+}
 
 .Hero {
+    margin-top: 5rem;
+
+
     margin-inline: auto;
     align-self: auto;
 
-    background-color: rgb(125, 167, 123);
+    background-color: rgb(81, 168, 77);
     border-radius: 1rem;
 
-    
-    
+    position: relative;
 
-
+    
     max-width: 60rem;
     min-height: 30rem;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .BackImage {
-    position: relative;
-}
-
-.BackImage::before {
-    content: " ";
-    display: block;
     position: absolute;
-    background-color: blue;
-    left: 0;
+
     top: 0;
-    
+    bottom: 0;
+    width: 100%;
+
+    border-radius: 1rem;
     background-image: url(../images/Chemistry.jpg);
-    opacity: 0.5;
+    background-size:cover;
+
+    opacity: 30%;
+    z-index: 2;
 
 }
 
 .HeroText {
     position: relative;
     
-    margin-inline: auto;
     align-items: center;
     text-align: center;
     color: white;
 
-    font-size: 2.5rem;
+    font-size: 3rem;
     max-width: 45ch;
 
     font-family: 'Bebas Neue', sans-serif;
+    z-index: 3;
 
+}
+
+.ImportantButton {
+    position: relative;
+    background-color: white;
+    
+    
+    margin-inline: auto;
+    align-items: center;
+    text-align: center;
+    padding: 0.5ch;
+    padding-left: 4ch;
+    padding-right: 4ch;
+    margin-bottom: 2rem;
+
+
+    
+    max-width: 50%;
+    font-size: 2rem;
+
+    border-radius: 0.5rem;
+    z-index: 3;
+
+}
+
+
+.ImpLink {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(48, 154, 67);
+    
 }
