@@ -24,3 +24,8 @@ Började med CSS, blev lite fixerad på att försöka skapa en transparent bakgr
 
 2024-10-08
 Gjorde klart min Hero för nuläget, tog ett tag men känner att jag lärt mig mycket utav det. Började nu med att börja på naven och lära mig hur man gör den. Har gått framåt, långsamt men lärorikt
+
+2024-10-09
+Spenderade en hel del tid på att utveckla min nav, gick sådär då jag försökte mig på buttons en hel del då jag trodde att det kunde bli en hel del snyggare än länkar som man klickar
+Spenderade en hel del på att styla listan där jag fortfarande håller på att lära mig.
+Går fortfarande väldigt långsamt.

@@ -5,15 +5,53 @@ main {
 
 .Nav {
     background-color: rgb(85, 85, 85);
-    max-height: fit-content;
+    height: 6rem;
     display: flex;
 }
 
+.NavList {
+    display: flex; 
+    flex-grow: 0.5;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 5%;
+}
+
 .NavList li {
-    float: left;
-    padding: 1rem;
     list-style: none;
+    height: fit-content;
+    margin: auto;
+
+    display: inline-block;
+    vertical-align: middle;
+
+    text-align: center;
+
     
+
+    width: 100%; padding: 0rem; flex-wrap: nowrap;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.NavList li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(48, 154, 67);
+}
+
+.NavList li button {
+    border: none;
+    font-family: sans-serif;
+    background-color: rgb(47, 47, 47);
+    cursor: pointer;
+    color: rgb(48, 154, 67);
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
 }
 
 .Hero {
