@@ -1,0 +1,83 @@
+
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.Nav {
+    background-color: rgb(85, 85, 85);
+    position: fixed;
+    height: 100%;
+    width: 10rem;
+    overflow: auto;
+}
+
+.Logo {
+    width: 60%;
+}
+
+.logobox {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.NavList {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.5;
+    margin: 0;
+    padding-left: 5%;
+    align-items: center;
+}
+
+.NavList li {
+    list-style: none;
+
+    width: 100%;
+    height: 5rem;
+}
+
+.NavList li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(48, 154, 67);
+}
+
+.NavList li button {
+    border: none;
+    font-family: sans-serif;
+    background-color: rgb(47, 47, 47);
+    cursor: pointer;
+    color: rgb(48, 154, 67);
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.Cv {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    padding-top: 3rem;
+}
+.WorkHead {
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Work {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(193, 193, 193);
+    padding: 1rem;
+    padding-left: 3rem;
+    border-radius: 0.5rem;
+}
+
+
+

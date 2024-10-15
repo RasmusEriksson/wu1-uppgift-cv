@@ -29,3 +29,6 @@ Gjorde klart min Hero för nuläget, tog ett tag men känner att jag lärt mig m
 Spenderade en hel del tid på att utveckla min nav, gick sådär då jag försökte mig på buttons en hel del då jag trodde att det kunde bli en hel del snyggare än länkar som man klickar
 Spenderade en hel del på att styla listan där jag fortfarande håller på att lära mig.
 Går fortfarande väldigt långsamt.
+
+2024-10-15
+Försöker att ta upp tempot nu, har skapat en till sida där det egentliga CV-et ska vara där jag skapade en sidebar och början till formateringen av de tidigare jobben. Annars än det lärt mig lite användbara grejer när det kommer hur man ska tänka runt kring organisering.
