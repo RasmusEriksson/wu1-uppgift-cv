@@ -32,3 +32,6 @@ Går fortfarande väldigt långsamt.
 
 2024-10-15
 Försöker att ta upp tempot nu, har skapat en till sida där det egentliga CV-et ska vara där jag skapade en sidebar och början till formateringen av de tidigare jobben. Annars än det lärt mig lite användbara grejer när det kommer hur man ska tänka runt kring organisering.
+
+2024-10-16
+Jag har nu helt formaterat de tidigare färdigheterna i mitt CV, spenderade en hel del tid åt det men har även spenderat en hel del tid på att försöka lära mig hur jag kan formatera webbsidan så att man ska kunna ha flera "pages" bredvid varandra men kom ingen vart riktigt. Fortsätter ständigt på ändå.
