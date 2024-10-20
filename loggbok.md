@@ -34,4 +34,11 @@ Går fortfarande väldigt långsamt.
 Försöker att ta upp tempot nu, har skapat en till sida där det egentliga CV-et ska vara där jag skapade en sidebar och början till formateringen av de tidigare jobben. Annars än det lärt mig lite användbara grejer när det kommer hur man ska tänka runt kring organisering.
 
 2024-10-16
-Jag har nu helt formaterat de tidigare färdigheterna i mitt CV, spenderade en hel del tid åt det men har även spenderat en hel del tid på att försöka lära mig hur jag kan formatera webbsidan så att man ska kunna ha flera "pages" bredvid varandra men kom ingen vart riktigt. Fortsätter ständigt på ändå.
+Jag har nu helt formaterat de tidigare färdigheterna i mitt CV, spenderade en hel del tid åt det men har även spenderat en hel del tid på att försöka lära mig hur jag kan formatera webbsidan så att man ska kunna ha flera "pages" bredvid varandra men kom ingen vart riktigt. Fortsätter ständigt på ändå.  
+
+2024-10-20
+Försökte mitt bästa att faktiskt lära mig lite formatering och hur flex fungerar, gick relativt väl och lärde mig mycket och hittade även en väldigt användbar Cheatsheet för just flex-grejer.
+
+ Känner mig lite mer bekväm med det men webbsidan ser knappt annorlunda ut även efter 2 timmars jobb.
+
+Kommer troligen inte hinna göra klart den men jag föredrar nog just nu lärandet och att jag hittar nya metoder över en färdig produkt

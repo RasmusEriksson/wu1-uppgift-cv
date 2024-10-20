@@ -6,21 +6,29 @@ main {
 
 .page {
     width: 100%;
+    display: flex;
+    align-content: flex-start;
 }
 
-.page li {
+.Navigation {
+    top: 0;
 
+    width: min(100% - 5rem, var(--container-max, 15rem));
 
+}
 
-    margin-left: -40px;
+.MainText {
+    height: fit-content;
 }
 
 .Nav {
     background-color: rgb(85, 85, 85);
+    width: min(35% - 3rem, var(--container-max, 20ch));
+
     position: fixed;
+    top: 0;
     
     height: 100%;
-    width: 10rem;
     overflow: auto;
 }
 .Logo {
@@ -31,47 +39,51 @@ main {
     display: grid;
     place-items: center;
 }
+
+
 .NavList {
     display: flex;
     flex-direction: column;
-    flex-grow: 0.5;
-    margin: 0;
-    padding-left: 5%;
-    align-items: center;
+    align-items: stretch;
+
+    justify-content: flex-start;
+
+    height: 12rem;
+    
+   
+
 }
 
-.NavList li {
-    list-style: none;
-
+.Element  {
     width: 100%;
-    height: 5rem;
+    height: 3rem;
+    background-color: rgb(179, 57, 161);
+    flex-grow: 0.5;
+    display: grid;
 }
-
-.NavList li a {
-    font-family: sans-serif;
-    text-decoration: none;
-    color: rgb(48, 154, 67);
-}
-
-.NavList li button {
+.Element button {
     border: none;
     font-family: sans-serif;
     background-color: rgb(47, 47, 47);
     cursor: pointer;
     color: rgb(48, 154, 67);
     font-size: 1rem;
+
     width: 100%;
     height: 100%;
-    padding: 1rem;
+
+
+    
 }
+
+
 
 
 
 .Cv {
     background-color: rgb(230, 230, 230);
     height: 100%;
-    width: 40%;
-    min-width: 45ch;
+    width: min(100% - 3rem, var(--container-max, 80ch));
     margin: auto;
     padding: 2rem;
     padding-top: 3rem;
@@ -107,6 +119,8 @@ main {
     border-radius: 0.5rem;
     list-style: circle;
 }
+
+
 
 
 
