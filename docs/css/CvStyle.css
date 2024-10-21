@@ -134,9 +134,11 @@ main {
 
 @media screen and (max-width: 900px) {
     .Profile .NoLink {display: none;}
+
     .Profile {
         width: 0;
     }
+
     .Profile .pfpButton {
       right: 0;
       display: grid;
@@ -162,22 +164,22 @@ main {
 
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .Profile.responsive {position: relative;}
 
     .Profile.responsive {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
-        width: 20rem;
-        display: block;
+
+        width: min(85% - 3rem, var(--container-max, 80ch));
+        height: 100%;
+        display: flex;
       }
       .Profile.responsive.NoLink {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 20rem;
         display: flex;
+        width: 100%;
+        height: 100%;
       }
   }
 
