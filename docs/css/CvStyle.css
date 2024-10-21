@@ -12,6 +12,7 @@ main {
 
 .Navigation {
     top: 0;
+    background-color: blue;
 
     width: min(100% - 5rem, var(--container-max, 15rem));
 
@@ -27,6 +28,8 @@ main {
 
     position: fixed;
     top: 0;
+    
+    opacity: 0.5;
     
     height: 100%;
     overflow: auto;
@@ -81,7 +84,7 @@ main {
 
 
 .Cv {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(255, 184, 253);
     height: 100%;
     width: min(100% - 3rem, var(--container-max, 80ch));
     margin: auto;
@@ -120,7 +123,37 @@ main {
     list-style: circle;
 }
 
+.Profile {
+    width: min(50% - 3rem, var(--container-max, 80ch));
+    background-color: blue;
+}
 
+.Profile .pfpButton {
+    display: none;
+}
 
+@media screen and (max-width: 900px) {
+    .Profile .NoLink {display: none;}
+    .Profile {
+        width: 0;
+    }
+    .Profile .pfpButton {
+      right: 0;
+      display: grid;
+      position: fixed;
+      max-height: 4rem;
+      max-width: 4rem;
+      margin-top: 1rem;
+      margin-right: 0.5rem;
+    }
 
+    .Profile .pfpButton img {
+        height: 100%;
+        width: 100%;
+
+        border-radius: 100%;
+        border-style: solid;
+        border-color: rgb(73, 148, 78);
+    }
+  }
 

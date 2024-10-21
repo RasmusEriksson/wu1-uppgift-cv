@@ -42,3 +42,12 @@ Försökte mitt bästa att faktiskt lära mig lite formatering och hur flex fung
  Känner mig lite mer bekväm med det men webbsidan ser knappt annorlunda ut även efter 2 timmars jobb.
 
 Kommer troligen inte hinna göra klart den men jag föredrar nog just nu lärandet och att jag hittar nya metoder över en färdig produkt
+
+2024-10-21
+Nu så håller saker på att hända, har lagt till en till bar för lite grund info om min karaktär som jag tänkt när skärmen minskas så blir det till en knapp istället som man kan använda för att få en pop-upp meny
+
+Började på att göra det genom att drygt följa en tutorial.
+
+De väldigt usla temporära bakgrundsfärgerna som jag har just nu är bara så att det blir lättare för mig att se vilka lådor som har vilken storlek
+
+Ska se om jag kan styla mer senare på själva innehållet i menyn, göra så att den kan bli poppad upp om man trycker på profilknappen
