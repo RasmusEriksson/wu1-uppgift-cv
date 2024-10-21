@@ -155,5 +155,29 @@ main {
         border-style: solid;
         border-color: rgb(73, 148, 78);
     }
+
+    
+  }
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .Profile.responsive {position: relative;}
+
+    .Profile.responsive {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20rem;
+        display: block;
+      }
+      .Profile.responsive.NoLink {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20rem;
+        display: flex;
+      }
   }
 

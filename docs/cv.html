@@ -5,10 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/CvStyle.css">
-    <title>Document</title>
+    <title>document</title>
 </head>
 
 <body>
+
+    
+    <script>
+        function myFunction() {
+      var x = document.getElementById("ProfileID");
+      if (x.className === "Profile") {
+        x.className += " responsive";
+      } else {
+        x.className = "Profile";
+      }
+    }
+    </script>
+
+
     <div class="page">
         <div class="Navigation">
             <header class="Nav">
@@ -129,11 +143,11 @@
         
             </header>
         </div>
-        <div class="Profile">
+        <div class="Profile" id="ProfileID">
             <a href="javascript:void(0);" class="pfpButton" onclick="myFunction()">
                 <img src="images/JPprofile.png" alt="">
             </a>
-            
+
             <div class="NoLink">
                 <div class="pfp">
                     <img src="images/JPprofile.png" alt="">
@@ -174,8 +188,10 @@
 
     
 
-
+    
     
 </body>
 
 </html>
+
+
