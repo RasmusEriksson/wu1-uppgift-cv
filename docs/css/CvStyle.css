@@ -8,11 +8,11 @@ main {
     width: 100%;
     display: flex;
     align-content: flex-start;
+    overflow-x:hidden;
 }
 
 .Navigation {
     top: 0;
-    background-color: blue;
 
     width: min(100% - 5rem, var(--container-max, 15rem));
 
@@ -29,7 +29,6 @@ main {
     position: fixed;
     top: 0;
     
-    opacity: 0.5;
     
     height: 100%;
     overflow: auto;
@@ -84,8 +83,8 @@ main {
 
 
 .Cv {
-    background-color: rgb(255, 184, 253);
     height: 100%;
+    background-color: rgb(255, 255, 255);
     width: min(100% - 3rem, var(--container-max, 80ch));
     margin: auto;
     padding: 2rem;
@@ -116,7 +115,7 @@ main {
 
 .Work {
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(225, 225, 225);
     padding: 2rem;
     width: 75%;
     border-radius: 0.5rem;
@@ -124,20 +123,50 @@ main {
 }
 
 .Profile {
-    width: min(50% - 3rem, var(--container-max, 80ch));
-    background-color: blue;
+    width: min(30% - 3rem, var(--container-max, 80ch));
+    background-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-color: grey;
+    top: 0;
+
+    display: flex;
 }
+.Profile .NoLink {
+    margin: 10%;
+}
+
+.Profile .NoLink .pfp{
+    width: 60%;
+}
+.Profile .NoLink .pfp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 10rem;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.Profile .NoLink h1 {
+    text-decoration: underline;
+}
+
 
 .Profile .pfpButton {
     display: none;
 }
 
 @media screen and (max-width: 900px) {
-    .Profile .NoLink {display: none;}
+
+    .Profile .NoLink {
+        display: none;
+    }
 
     .Profile {
         width: 0;
+        border-style: none;
     }
+
+    
 
     .Profile .pfpButton {
       right: 0;
@@ -155,7 +184,7 @@ main {
 
         border-radius: 100%;
         border-style: solid;
-        border-color: rgb(73, 148, 78);
+        border-color: grey;
     }
 
     
@@ -165,21 +194,24 @@ main {
 
 
   @media screen and (max-width: 900px) {
-    .Profile.responsive {position: relative;}
 
     .Profile.responsive {
         position: fixed;
         top: 0;
+        bottom: 0;
         right: 0;
 
-        width: min(85% - 3rem, var(--container-max, 80ch));
+        overflow-y:scroll;
+        overflow-x:hidden;
+
+        border-style: solid;
+
+        width: min(60% - 3rem, var(--container-max, 45ch));
         height: 100%;
         display: flex;
       }
-      .Profile.responsive.NoLink {
-        display: flex;
-        width: 100%;
-        height: 100%;
+      .Profile.responsive .NoLink {
+        display: block;
       }
   }
 

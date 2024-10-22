@@ -51,3 +51,6 @@ Började på att göra det genom att drygt följa en tutorial.
 De väldigt usla temporära bakgrundsfärgerna som jag har just nu är bara så att det blir lättare för mig att se vilka lådor som har vilken storlek
 
 Ska se om jag kan styla mer senare på själva innehållet i menyn, göra så att den kan bli poppad upp om man trycker på profilknappen
+
+2024-10-22
+Fick äntligen profil-popupp knappen att fungera fullt ut, har även lärt mig att inspektera är ett kraftfullt verktyg för att förstå sig på saker bättre. Nu är det för det mesta att bara lägga till mer saker in i CV-et och styla det, sedan är jag för det mesta klar
