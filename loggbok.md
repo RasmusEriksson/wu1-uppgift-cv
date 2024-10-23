@@ -57,3 +57,7 @@ Fick äntligen profil-popupp knappen att fungera fullt ut, har även lärt mig a
 
 2024-10-23
 Sista gången jag jobbar med CV-et, gjorde för det mesta "final-touches" och la till kontakt information. Blev inte det snyggaste, har inte all info som den kan behöva, men jag tror det kanske blir bra nog för lärandets syfte.
+
+Har nu testat webbsidan med WAVE, det enda som riktigt kom upp med den var att vissa texter hade låg kontrast med sin bakgrund som jag ska ta i åtanke tills senare. Sedan var det också att jag skippade mycket mellan header-levels (till exempel h1 > h4 > h3) som går troligen att lösa i framtiden genom classer.
+
+Projektet har varit väldigt lärorikt och jag känner mig en hel del mer bekväm med css och html-struktur nu. Jag hann inte med allt som jag ville ha med men det var nog för att jag för det mesta behövde spendera tid på att lära mig nya saker varje gång jag provade något nytt. Är i generellt relativt nöjd och tycker att det kunda ha gått betydeligt värre.
