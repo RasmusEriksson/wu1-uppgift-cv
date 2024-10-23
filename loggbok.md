@@ -54,3 +54,6 @@ Ska se om jag kan styla mer senare på själva innehållet i menyn, göra så at
 
 2024-10-22
 Fick äntligen profil-popupp knappen att fungera fullt ut, har även lärt mig att inspektera är ett kraftfullt verktyg för att förstå sig på saker bättre. Nu är det för det mesta att bara lägga till mer saker in i CV-et och styla det, sedan är jag för det mesta klar
+
+2024-10-23
+Sista gången jag jobbar med CV-et, gjorde för det mesta "final-touches" och la till kontakt information. Blev inte det snyggaste, har inte all info som den kan behöva, men jag tror det kanske blir bra nog för lärandets syfte.
